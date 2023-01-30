@@ -2006,23 +2006,16 @@
   font: bold;
   }
 
-  @media screen and (max-width: 428px) {
-    .hidden,
-    .hidden * {
   
-}
-
-.lo-sojascreen {
-  align-items: flex-start;
-  background-color: #fff;
-  border: 1px none;
+/* width:  */
+/* 
+.overlap-group14{
+  align-items: center;
   display: flex;
-  flex-direction: column;
-  height: 14394px;
-  width: 428px;
 }
 
-.iphone-13-pro-max-8 .flex {
+.flex
+{
   align-items: center;
   display: flex;
 }
@@ -3455,4 +3448,4 @@
   position: absolute;
   top: 189px;
 }
-  }
+  } */
