@@ -2009,8 +2009,7 @@
   @media screen and (max-width: 428px) {
     .hidden,
     .hidden * {
-   pointer-events: none;
-  visibility: hidden;
+  
 }
 
 .lo-sojascreen {
