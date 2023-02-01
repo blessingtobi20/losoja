@@ -32,11 +32,11 @@
   .lo-sojascreen {
     align-items: flex-start;
     background-color: #fff;
-    border: 1px none;
+    border: 0.063rem none;
     display: flex;
-    height: 15018px;
+    height: 938.625rem;
     overflow: hidden;
-    width: 1512px;
+    width: 94.5rem;
     
   }
   
@@ -47,9 +47,9 @@
   }
   
   .overlap-group14 {
-    height: 26803px;
+    height: 1675.188rem;
     position: relative;
-    width: 1512px;
+    width: 94.5rem;
   }
   
   .title {
