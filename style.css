@@ -17,18 +17,7 @@
     font-weight: 700;
     src: url("https://fonts.animaapp.com/Arial-Bold") format("truetype");
   }
-  /* for dark themegit init */
-  /* .lo
-  {
-    align-items: flex-start;
-    background-color: black;
-    border: 1px none;
-    display: flex;
-    height: 15037px;
-    overflow: hidden;
-    width: 1512px;
-    color: white;
-  } */
+/* for loader */
   .preloader{
     align-items: center;
     background: rgb(23, 22, 22);
