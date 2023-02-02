@@ -1,13 +1,16 @@
-// Show the loader
-document.querySelector('.loader').style.display = 'flex';
 
-// Hide the loader after a few seconds (for demonstration purposes)
-setTimeout(function() {
-  document.querySelector('.loader').style.display = 'none';
-}, );
+const preloader = document.querySelector('.preloader .loaded');
 
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 0.1;
+  } else {
+    clearInterval(fadeEffect);
+  }
+}, 2000);
 
-window.onload = function() {
-    // Remove the loader when the page has finished loading
-    document.querySelector('.loader .spinner').style.display = 'none';
-  };
+window.addEventListener('load', fadeEffect);
