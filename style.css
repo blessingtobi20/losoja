@@ -32,12 +32,11 @@
   .lo-sojascreen {
     align-items: flex-start;
     background-color: #fff;
-    border: 0.063rem none;
+    border: 1px none;
     display: flex;
-    height: 938.625rem;
+    height: 15018px;
     overflow: hidden;
-    width: 94.5rem;
-    
+    width: 1512px;
   }
   
   .hidden,
