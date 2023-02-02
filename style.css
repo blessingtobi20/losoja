@@ -37,6 +37,7 @@
     height: 15018px;
     overflow: hidden;
     width: 1512px;
+    
   }
   
   .hidden,
@@ -46,24 +47,24 @@
   }
   
   .overlap-group14 {
-    height: 1675.188rem;
+    height: 26803px;
     position: relative;
-    width: 94.5rem;
+    width: 1512px;
   }
   
   .title {
     color: #353738;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 6rem;
+    font-size: 96px;
     font-weight: 400;
-    height: 4.875rem;
-    left: 13.688rem;
+    height: 78px;
+    left: 219px;
     letter-spacing: 0;
-    line-height: 2.25rem;
+    line-height: 36px;
     position: absolute;
     text-align: center;
-    top: 858.875rem;
-    width: 18.125rem;
+    top: 13742px;
+    width: 290px;
   }
   
   .valign-text-middle {
@@ -268,12 +269,12 @@
   
   .div-25 {
     height: 60px;
-  width: 1512px;
-  background: #1D2227;
+    width: 1512px;
+    background: #1D2227;
   }
-  /* work to do on height  */
-  .div-25 ul                                  
+  .div-25 ul
   {
+    color: #fff;
     display: flex;
     position: absolute;
     gap: 15px;
@@ -284,31 +285,32 @@
     right: 699px;
     left: 699px;
     padding: 0px;
-    color :#8D8D8D;
+    
   }
   .fa-behance:hover{
-  color: #1769ff;
-  transition: 1s;
-  transform: rotateY(360deg);
-}
-.fa-twitter:hover{
-  color: #1DA1F2;
-  transition: 1s;
-  transform: rotateY(360deg);
-}
-.fa-instagram:hover
-{
-  color: #c13584;
-  transition: 1s;
-  transform: rotateY(360deg);
-}
+    color: #1769ff;
+    transition: 1s;
+    transform: rotateY(360deg);
+  }
+  .fa-twitter:hover{
+    color: #1DA1F2;
+    transition: 1s;
+    transform: rotateY(360deg);
+  }
+  .fa-instagram:hover
+  {
+    color: #c13584;
+    transition: 1s;
+    transform: rotateY(360deg);
+  }
+  
+  .fa-linkedin:hover
+  {
+    color:  #0077B5;
+    transition: 1s;
+    transform: rotateY(360deg);
+  }
 
-.fa-linkedin:hover
-{
-  color:  #0077B5;
-  transition: 1s;
-  transform: rotateY(360deg);
-}
   .introduction-1 {
     height: 80px;
     left: 465px;
@@ -2005,16 +2007,24 @@
   font: bold;
   }
 
-  
-/* width:  */
-/* 
-.overlap-group14{
-  align-items: center;
-  display: flex;
+  @media screen and (max-width: 428px) {
+    .hidden,
+    .hidden * {
+   pointer-events: none;
+  visibility: hidden;
 }
 
-.flex
-{
+.lo-sojascreen {
+  align-items: flex-start;
+  background-color: #fff;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 20094px;
+  width: 428px;
+}
+
+.iphone-13-pro-max-8 .flex {
   align-items: center;
   display: flex;
 }
@@ -3447,4 +3457,4 @@
   position: absolute;
   top: 189px;
 }
-  } */
+  }
