@@ -6,4 +6,5 @@ setTimeout(function() {
   document.querySelector('.loader').style.display = 'none';
 }, 20);
 
+
 window.addEventListener('load', fadeEffect);
