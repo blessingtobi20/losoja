@@ -9,5 +9,5 @@ setTimeout(function() {
 
 window.onload = function() {
     // Remove the loader when the page has finished loading
-    document.querySelector('.loader').style.display = 'none';
+    document.querySelector('.loader .spinner').style.display = 'none';
   };
