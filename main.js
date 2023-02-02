@@ -1,11 +1,7 @@
-const preloader = document.querySelector('preloader');
-if (preloader) {
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      preloader.classList.add('loaded');
-    }, 1000);
-    setTimeout(() => {
-      preloader.remove();
-    }, 2000);
-  });
-}
+// Show the loader
+document.querySelector('.loader').style.display = 'flex';
+
+// Hide the loader after a few seconds (for demonstration purposes)
+setTimeout(function() {
+  document.querySelector('.loader').style.display = 'none';
+}, 3000);
