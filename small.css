@@ -17,10 +17,15 @@
     font-weight: 700;
     src: url("https://fonts.animaapp.com/Arial-Bold") format("truetype");
   }
-
+/* media screen for Iphone 13 pro  width= 428px height=20094px */
 
   .lo-sojascreen{
-    
-      width: 428px;
-      height: 100%;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 20094px;
+    overflow: hidden;
+    width: 428px;
         }
