@@ -1813,7 +1813,8 @@
     display: flex;
     min-width: 437px;
   }
-  
+  @media screen and(max-width:428px) {
+  }
   .bold {
     height: 36px;
   letter-spacing: 0;
@@ -1843,21 +1844,40 @@
     background-color: 
   #84888b;
   }
-  
+  @media screen and(max-width:428px) {
+    .ellipse-2 {
+      background-color: 
+    #84888b;
+    }
+  }
+
   .lo-soja  {
     border-radius: 10.5px;
     height: 21px;
     margin-bottom: 1px;
     width: 21px;
   }
-  .ellipse
+  .ellipse-3
 {
   border-radius: 10.5px;
   height: 21px;
   margin-bottom: 1px;
   width: 21px;
 }
-
+.ellipse-4
+{
+  border-radius: 10.5px;
+  height: 21px;
+  margin-bottom: 1px;
+  width: 21px;
+}
+@media screen and(max-width:428px) {
+  .ellipse-2 {
+    background-color: 
+  #84888b;
+  }
+  
+}
   .ellipse-1 {
     background-color: #353738;
     margin-left: 55px;
@@ -1875,6 +1895,20 @@
     font-size: 40px;
   }
   
+  @media screen and (max-width: 428px) {
+    .regular
+    {
+      height: 36px;
+      letter-spacing: 0;
+      line-height: 36px;
+      left: 65px;
+      min-width: 141px;
+      white-space: nowrap;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+    }
+}
   .a-b-c-d-e-f-g-h-i-j {
     letter-spacing: 0;
   line-height: 50px;
@@ -3127,31 +3161,17 @@
   min-width: 205px;
 }
 
-.ellipse-1 {
-  background-color: var(--onyx);
-  margin-left: 14px;
-}
 
-.iphone-13-pro-max-8 .ellipse {
+
+.iphone-13-pro-max-8 {
   border-radius: 5.5px;
   height: 11px;
   margin-top: 1px;
   width: 11px;
 }
 
-.regular {
-  height: 36px;
-  letter-spacing: 0;
-  line-height: 36px;
-  margin-left: 10px;
-  min-width: 92px;
-  white-space: nowrap;
-}
 
-.ellipse-2 {
-  background-color: 
-#84888b;
-}
+
 
 .bold {
   height: 36px;
@@ -3236,17 +3256,7 @@
   width: 290px;
 }
 
-.a-b-c-d-e-f-g-h-i-j {
-  color: var(--onyx);
-  font-family: var(--font-family-nunito);
-  font-size: var(--font-size-xxl);
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 50px;
-  margin-right: 33px;
-  min-height: 313px;
-  width: 303px;
-}
+
 
 .div-24 {
   align-items: flex-end;
