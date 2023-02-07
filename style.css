@@ -38,7 +38,10 @@
     opacity: 0;
     pointer-events: none;
   }
-  
+  img
+  {
+    width: 100%;
+  }
   .lo-sojascreen {
     align-items: flex-start;
     background-color: #fff;
@@ -49,7 +52,13 @@
     width: 1512px;
     
   }
-  
+  @media screen and (min-width:428px) {
+    .lo-sojascreen
+    {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
   .hidden,
   .hidden * {
     pointer-events: none;
@@ -60,6 +69,13 @@
     height: 26803px;
     position: relative;
     width: 1512px;
+  }
+  @media screen and (min-width:428px) {
+    .overlap-group14
+    {
+      max-width: 100%;
+      width: 100%;
+    }
   }
   
   .title {
@@ -76,8 +92,25 @@
     top: 13742px;
     width: 290px;
   }
+  @media screen and (max-width:428px) {
+    .title
+    {
+      color: #353738;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 66px;
+      font-weight: 400;
+      height: 78px;
+      left: -30px;
+      letter-spacing: 0;
+      line-height: 36px;
+      position: absolute;
+      text-align: center;
+      top: 13742px;
+      width: 290px;
+    }
+  }
   
-  .valign-text-middle {
+  .align-text-middle {
     display: flex;
     flex-direction: column;
     justify-content: center;
