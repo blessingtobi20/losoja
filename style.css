@@ -38,10 +38,8 @@
     opacity: 0;
     pointer-events: none;
   } */
-  img{
-    
-    width: 100%;
-  }
+ 
+  
   .lo-sojascreen {
     align-items: flex-start;
     background-color: #fff;
